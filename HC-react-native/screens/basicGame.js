@@ -1,12 +1,17 @@
 import React from "react";
 import { StyleSheet, View, Text, Button } from "react-native";
-import names from "../files/names";
+// import { Names } from "../files/names";
+import { Names } from "../components/Names";
+import { Choice } from "../components/Choice";
 
-export default function Home({ navigation }) {
+export default function basicGame({ navigation }) {
   return (
     <View>
       <Text>Game mode!</Text>
-      <Text>Who-ho!!</Text>
+      <Text> Would you rather: </Text>
+      <Choice />
+      <Text> or! </Text>
+      <Choice />
     </View>
   );
 }
