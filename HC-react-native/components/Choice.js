@@ -21,13 +21,7 @@ export const Choice = () => {
   const [RandomAdjective, setRandomAdjective] = useState(() =>
     randomChoice(AdjectiveList)
   );
-  //   useEffect(() => {
-  //     let RandomName = randomChoice(NameList);
 
-  //     let RandomVerb = randomChoice(VerbList);
-
-  //     let RandomAdjective = randomChoice(AdjectiveList);
-  //   });
   return (
     <>
       <View className="stock-container">

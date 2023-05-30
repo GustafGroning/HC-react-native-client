@@ -7,10 +7,9 @@ import { Choice } from "../components/Choice";
 export default function basicGame({ navigation }) {
   return (
     <View>
-      <Text>Game mode!</Text>
-      <Text> Would you rather: </Text>
+      <Text>Would you rather: </Text>
       <Choice />
-      <Text> or! </Text>
+      <Text>or! </Text>
       <Choice />
     </View>
   );
